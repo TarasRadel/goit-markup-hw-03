@@ -23,12 +23,13 @@ img{
    
  }
 /*============Header=========*/
-
+.header{
+    border-bottom: 1px solid #E7E9FC;
+}
 .container-heder{
     display: flex;
     padding-top: 24px;
 padding-bottom: 24px;
-border-bottom: 1px solid  #E7E9FC;
 }
 .header-logo-dys{
     color: #2e2f42;
@@ -305,19 +306,22 @@ border: none;
  /*=====================*/
  /*=======Footer==============*/
  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
  }
 .container-footer{
     background: #2E2F42;
     display: flex;
-    padding-left: 156px;
-    padding-top: 101.5px;
+    padding-top: 100px;
     padding-bottom: 100px;
+    padding-left: 156px;
     flex-direction: column;
     gap: 17.5px;
   
 }
 
  .footer-link {
+    display: inline-block;
     color:#4d5ae5;
         font-family: "Raleway",
             sans-serif;
@@ -326,6 +330,7 @@ border: none;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        margin-bottom: 16px;
  }
 
  .footer-logo-dys {color:#f4f4fd;
