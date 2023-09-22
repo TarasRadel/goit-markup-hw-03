@@ -18,11 +18,9 @@ img{
     display: block;
 }
  .container {
-    width: 1470px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 1440px;
     margin: 0 auto;
-    outline: 2px solid red;
+   
  }
 /*============Header=========*/
 
@@ -30,6 +28,7 @@ img{
     display: flex;
     padding-top: 24px;
 padding-bottom: 24px;
+border-bottom: 1px solid  #E7E9FC;
 }
 .header-logo-dys{
     color: #2e2f42;
@@ -235,6 +234,7 @@ border: none;
         justify-content: center;
         align-items: center;
         gap: 32px;
+        border-radius: 0px 0px 4px 4px;
     
 }
  .team-subtitle{
@@ -284,6 +284,7 @@ border: none;
         align-items: flex-start;
         gap: 32px;
         flex-shrink: 0;
+        border: 1px solid  #E7E9FC;
 }
 
  .portfolio-subtitle {
