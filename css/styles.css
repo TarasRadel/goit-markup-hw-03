@@ -17,10 +17,12 @@ a {text-decoration: none;}
 img{
     display: block;
 }
- .container {
-    width: 1440px;
+.container {
+    width: 1158px;
     margin: 0 auto;
-   
+    padding-left: 15px;
+    padding-right: 15px;
+
  }
 /*============Header=========*/
 .header{
@@ -28,8 +30,10 @@ img{
 }
 .container-heder{
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 24px;
-padding-bottom: 24px;
+    padding-left: 24px;
 }
 .header-logo-dys{
     color: #2e2f42;
@@ -39,12 +43,13 @@ padding-bottom: 24px;
         line-height: 1.17;
         letter-spacing: 0.03;
         text-transform: uppercase;
+        margin-right: 76px;;
 }
 .header-navigation{
     display: flex;
    flex-grow: 1;
    justify-content: flex-start;
-   gap: 90px;
+align-items: center;
    margin-left:156px;
 }
 .header-logo{
@@ -61,8 +66,9 @@ padding-bottom: 24px;
 .header-menu{
     display: flex;
     gap: 40px;
-    margin-left: 76px;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-menu-item {
     color: #2E2F42;
@@ -111,13 +117,18 @@ color: #404BBF ;
 /*============Hero=========*/
 
     .hero-container{
+        display: flex;
+        flex-direction: column;
     background-color: #2e2f42;
+    justify-content: flex-start;
+        align-items: center;
+        margin: 0 auto;
     padding-top: 188px;
-        padding-bottom: 292px;
-        padding-left: 472px;
-        padding-right: 472px;
+        padding-bottom: 188px;
+        
     }
     .hero-title{
+        justify-content: flex-start;
         align-self: center;
         color:  #FFF;
             font-size: 56px;
@@ -129,10 +140,13 @@ color: #404BBF ;
             padding-top: 188px;
     }
 .hero-btn-box{
-    display: flex;
-   margin: 0 auto;
-   padding-bottom: 188px;
-
+    
+display: block;
+        padding: 16px 32px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 4px;
+        min-width: 169px;
 }
    .hero-bye-btn{
     background:  #4D5AE5;
@@ -177,7 +191,7 @@ border: none;
    }
    .features-list-item{
     display: flex;
-        width: 264px;
+        width: calc((100% - 72px) / 4);
         flex-direction: column;
         align-items: flex-start;
         gap: 8px;
