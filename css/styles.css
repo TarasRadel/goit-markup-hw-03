@@ -30,6 +30,7 @@ img{
     padding-bottom: 24px;
 }
 .container-heder{
+    display: flex;
 
 }
 .header-logo-dys{
@@ -41,7 +42,15 @@ img{
         letter-spacing: 0.03;
         text-transform: uppercase;
 }
+.header-navigation{
+    display: flex;
+   flex-grow: 1;
+   justify-content: flex-start;
+   gap: 90px;
+   margin-left:156px;
+}
 .header-logo{
+    display: flex;
     color:#4d5ae5;
         font-family: "Raleway",
             sans-serif;
@@ -50,6 +59,11 @@ img{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+}
+.header-menu{
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
 }
 .header-menu-item {
     color: #2E2F42;
@@ -72,6 +86,13 @@ color: #404BBF ;
 }
 .header-address {
     font-style: normal;
+}
+.header-address-list{
+    display: flex;
+    gap: 40px;
+    margin-right: 156px;
+  
+
 }
 .header-address-link {
     color:  #434455;
@@ -105,7 +126,11 @@ color: #404BBF ;
             margin-bottom: 48px;
             max-width: 496px;
     }
+.hero-btn-box{
+    display: flex;
+   margin: 0 auto;
 
+}
    .hero-bye-btn{
     background:  #4D5AE5;
     color: #FFFFFF; 
@@ -114,6 +139,8 @@ color: #404BBF ;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    padding: 16px 32px;
+border: none;
    }
    .hero-bye-btn:hover,
    .hero-bye-btn:focus
