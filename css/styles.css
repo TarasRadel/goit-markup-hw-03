@@ -32,8 +32,6 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 24px;
-    padding-left: 24px;
 }
 .header-logo-dys{
     color: #2e2f42;
