@@ -188,8 +188,7 @@ border: none;
         width: 1px;
    }
    .container-features{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
    }
    .features-list{
     display: flex;
@@ -197,6 +196,7 @@ border: none;
     padding-left: 156px;
     padding-top: 24px;
     padding-bottom: 24px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
     gap: 24px;
 
    }
@@ -204,7 +204,6 @@ border: none;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-        flex-basis: calc((100% - 3 * 24px) / 4);
         gap: 8px;
    }
  .features-subtitle {
