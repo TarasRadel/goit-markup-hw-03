@@ -178,6 +178,10 @@ border: none;
     padding-top: 120px;
     padding-bottom: 120px;
    }
+   .container-features {
+       padding-top: 120px;
+       padding-bottom: 120px;
+   }
    .visually-hidden{
     clip: rect(0 0 0 0);
         clip-path: inset(50%);
@@ -187,11 +191,7 @@ border: none;
         white-space: nowrap;
         width: 1px;
    }
-   .container-features{
-    padding-top: 120px;
-        padding-bottom: 120px;
-   }
-   .features-list {
+      .features-list {
        display: flex;
     gap: 24px;
    }
@@ -360,7 +360,6 @@ justify-content: center;
  }
 .container-footer{
     background: #2E2F42;
-   
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 156px;
