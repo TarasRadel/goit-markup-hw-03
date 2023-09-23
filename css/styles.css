@@ -188,7 +188,8 @@ border: none;
         width: 1px;
    }
    .container-features{
-    padding: 120px 0;
+    padding-top: 120px;
+        padding-bottom: 120px;
    }
    .features-list{
     display: flex;
@@ -285,6 +286,10 @@ justify-content: center;
  }
  /*=====================*/
  /*========Portfolio=============*/
+ .container--pottfolio{
+    padding-top: 120px;
+        padding-bottom: 120px;
+ }
  .portfolio-title {
     color: #2E2F42;
         text-align: center;
@@ -293,17 +298,14 @@ justify-content: center;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        padding-top: 120px;
-        padding-bottom: 120px;
+        margin-bottom: 72px;
  }
  .portfolio-list{
     display: flex;
     flex-wrap: wrap;
         padding-right: 156px;
         padding-left: 156px;
-        padding-top: 72px;
-        padding-bottom: 120px;
-        gap: 24px;
+        row-gap: 48px;
  }
 .portfolio-list-item{
     display: flex;
