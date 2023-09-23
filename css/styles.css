@@ -220,7 +220,8 @@ border: none;
  }
  /*=====================*/
  /*=======team==============*/
- .team {
+ .team-titl {
+    margin-bottom: 72px;
     
  }
  .container-team{
