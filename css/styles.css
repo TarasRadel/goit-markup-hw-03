@@ -381,7 +381,9 @@ display: inline-block;
         margin-bottom: 16px;
  }
 
- .footer-logo-dys {color:#f4f4fd;
+ .footer-logo-dys {
+    display: inline-block;
+    color:#f4f4fd;
     font-family: "Raleway",
         sans-serif;
     font-size: 18px;
@@ -392,7 +394,6 @@ display: inline-block;
 }
 
  .footer-text {
-    display: flex;
     color:#F4F4FD;
     font-size: 16px;
     line-height: 1.5;
