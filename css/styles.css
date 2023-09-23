@@ -358,9 +358,10 @@ justify-content: center;
     gap: 17.5px;
   
 }
-
+.footer-link-bl{
+display: inline-block;
+}
  .footer-link {
-    display: inline-block;
     color:#4d5ae5;
         font-family: "Raleway",
      sans-serif;
