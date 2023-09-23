@@ -197,7 +197,7 @@ border: none;
     padding-left: 156px;
     padding-top: 24px;
     padding-bottom: 24px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc( (100% - 3 * 24px) / 4);
     gap: 24px;
 
    }
