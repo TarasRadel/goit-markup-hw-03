@@ -242,12 +242,19 @@ border: none;
  }
  .teams-list{
     display:flex ;
-    padding-right: 156px;
-    padding-left: 156px;
+    align-items: center;
         padding-top: 72px;
         padding-bottom:  120px;
         gap: 24px;
     
+ }
+ .container-team-list-item{
+display: flex;
+flex-direction: column;
+padding-top: 32px;
+padding-bottom: 32px;
+justify-content: center;
+    align-items: center;
  }
 .team-list-item {
     background-color: #fff;
@@ -256,7 +263,6 @@ border: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 32px;
         border-radius: 0px 0px 4px 4px;
     
 }
