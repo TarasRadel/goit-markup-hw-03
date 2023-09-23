@@ -302,10 +302,9 @@ justify-content: center;
  }
  .portfolio-list{
     display: flex;
+    column-gap: 24px;
     flex-wrap: wrap;
-        padding-right: 156px;
-        padding-left: 156px;
-        row-gap: 48px;
+    row-gap: 48px;
  }
 .portfolio-list-item{
     display: flex;
