@@ -220,14 +220,11 @@ border: none;
  }
  /*=====================*/
  /*=======team==============*/
- .team-titl {
-    margin-bottom: 72px;
     
- }
  .container-team{
     background: #F4F4FD;
     padding-top: 120px;
-        padding-bottom: 120px;
+    padding-bottom: 120px;
  }
 
  .team-titl {
@@ -238,7 +235,6 @@ border: none;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        padding-top: 120px;
  }
  .teams-list{
     display:flex ;
@@ -273,6 +269,7 @@ justify-content: center;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
  }
  .team-text {
     color: #434455;
