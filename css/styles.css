@@ -22,7 +22,7 @@ img{
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
 
  }
 /*============Header=========*/
@@ -63,6 +63,8 @@ align-items: center;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        margin-right: 76px;
+
 }
 .header-menu{
     display: flex;
