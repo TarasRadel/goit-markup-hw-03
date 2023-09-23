@@ -193,6 +193,7 @@ border: none;
    }
    .features-list {
        display: flex;
+    gap: 24px;
    }
    /*.features-list{
     display: flex;
