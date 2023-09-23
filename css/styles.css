@@ -224,7 +224,11 @@ border: none;
  }
  /*=====================*/
  /*=======team==============*/
-    
+   .team{
+    padding-top: 120px;
+        padding-bottom: 120px;
+
+   }
  .container-team{
     background: #F4F4FD;
     padding-top: 120px;
@@ -286,9 +290,9 @@ justify-content: center;
  }
  /*=====================*/
  /*========Portfolio=============*/
- .container--pottfolio{
+ .portfolio{
     padding-top: 120px;
-        padding-bottom: 120px;
+    padding-bottom: 120px;
  }
  .portfolio-title {
     color: #2E2F42;
@@ -299,6 +303,7 @@ justify-content: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         margin-bottom: 72px;
+       
  }
  .portfolio-list{
     display: flex;
@@ -311,6 +316,7 @@ justify-content: center;
     display: flex;
     padding: 32px 16px;
         flex-direction: column;
+        width: 360px;
         justify-content: center;
         border: 1px solid #E7E9FC;
             border-top: none;
@@ -322,7 +328,7 @@ justify-content: center;
         padding-bottom: 0px;
         flex-direction: column;
         align-items: flex-start;
-        gap: 32px;
+    
         flex-shrink: 0;
 }
 
