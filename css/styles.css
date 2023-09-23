@@ -197,7 +197,6 @@ border: none;
     padding-left: 156px;
     padding-top: 24px;
     padding-bottom: 24px;
-    flex-basis: calc( (100% - 3 * 24px) / 4);
     gap: 24px;
 
    }
@@ -214,6 +213,7 @@ border: none;
         line-height: 1.2;
         letter-spacing: 0.02em;
         margin-bottom: 8px;
+        flex-basis: calc((100% - 72px) / 4);
  }
  .features-item-text {
     color: #434455;
