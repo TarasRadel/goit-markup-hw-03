@@ -305,17 +305,25 @@ justify-content: center;
     column-gap: 24px;
     flex-wrap: wrap;
     row-gap: 48px;
+
+ }
+ .container-portfolio-list-item{
+    display: flex;
+    padding: 32px 16px;
+        flex-direction: column;
+        justify-content: center;
+    
  }
 .portfolio-list-item{
     display: flex;
         width: 360px;
-        height: 420px;
         padding-bottom: 0px;
         flex-direction: column;
         align-items: flex-start;
         gap: 32px;
         flex-shrink: 0;
         border: 1px solid  #E7E9FC;
+        border-top: none;
 }
 
  .portfolio-subtitle {
