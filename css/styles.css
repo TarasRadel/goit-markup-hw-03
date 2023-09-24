@@ -213,7 +213,7 @@ border: none;
     flex-direction: column;
     align-items: flex-start;
         gap: 8px;
-        flex-basis:calc((100% -72px) / 4);
+        flex-basis:calc((100% - 72px) / 4);
    }
  .features-subtitle {
     color: #2e2f42;
@@ -233,8 +233,7 @@ border: none;
  /*=====================*/
  /*=======team==============*/
    .team{
-    padding-top: 120px;
-        padding-bottom: 120px;
+    background: #F4F4FD;
 
    }
  .container-team{
@@ -256,14 +255,11 @@ border: none;
  .teams-list{
     display:flex ;
     align-items: center;
-        padding-top: 72px;
-        padding-bottom:  120px;
         gap: 24px;
     
  }
  .container-team-list-item{
-display: flex;
-flex-direction: column;
+
 padding-top: 32px;
 padding-bottom: 32px;
 justify-content: center;
@@ -359,13 +355,13 @@ justify-content: center;
  /*=====================*/
  /*=======Footer==============*/
  .footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    background: #2E2F42;
+        padding-top: 100px;
+        padding-bottom: 100px;
+   
  }
 .container-footer{
-    background: #2E2F42;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    
     padding-left: 156px;
     flex-direction: column;
     gap: 17.5px;
