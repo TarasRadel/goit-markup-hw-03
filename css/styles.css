@@ -95,12 +95,14 @@ color: #404BBF ;
 }
 .header-address {
     font-style: normal;
+    margin-left: auto;
 }
 .header-address-list{
     display: flex;
     gap: 40px;
 
   margin-left: auto;
+  margin-right: auto;
     align-items: center;
   
 
@@ -120,17 +122,18 @@ color: #404BBF ;
 
 /*============Hero=========*/
 .hero{
+    background-color: #2e2f42;
     padding-top: 188px;
         padding-bottom: 188px;
-        background-color: #2e2f42;
+
 
 }
-    .hero-container{
+   /* .hero-container{
         flex-direction: column;
     justify-content: flex-start;
         align-items: center;
-    }
-    .hero-title{
+    }*/
+   /* .hero-title{
         justify-content: flex-start;
         align-self: center;
         color:  #FFF;
@@ -143,17 +146,25 @@ color: #404BBF ;
             padding-top: 188px;
             margin-left: auto;
             margin-right: auto;
-    }
+    }*/
+         .hero-title {
+             color: #FFF;
+             font-size: 56px;
+             font-weight: 700;
+             line-height: 1.07;
+             letter-spacing: 0.02em;
+             margin-bottom: 48px;
+             max-width: 496px;
+             margin-left: auto;
+             margin-right: auto;
+         }
 .hero-btn-box{
-    
 display: block;
         padding: 16px 32px;
-        align-items: flex-start;
-        gap: 10px;
         border-radius: 4px;
         min-width: 169px;
         margin-left: auto;
-            margin-right: auto;
+     margin-right: auto;
 }
    .hero-bye-btn{
     background:  #4D5AE5;
